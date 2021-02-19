@@ -59,7 +59,7 @@
   border-radius: 0;
 }
 .form-group {
-  width: 200px;
+  width: 300px;
 }
 .features .btn {
   background-color: #ff97b7;
@@ -67,7 +67,18 @@
   color: #fff;
   margin-top: 20px;
 }
+.btn {
+  background-color: #ff97b7;
+  border: 1px solid #ff5d8f;
+  color: #fff;
+  margin-top: 20px;
+}
+
 .features .btn:hover {
+  background-color: #b392ac;
+  border: 1px solid #b392ac;
+}
+.btn:hover {
   background-color: #b392ac;
   border: 1px solid #b392ac;
 }
@@ -210,5 +221,5 @@ body {
 }
 #demo-modal .btn:hover,
 #demo-modal .btn:focus {
-  background-color: #12968d;
+  background-color: #ffafcc;
 }
